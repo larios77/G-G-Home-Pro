@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G&G HOME</title>
+    <!-- styles css -->
+    <link rel="stylesheet" href="./Home.css" />
+    <!-- cdn fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- networks -->
+    <div class="container__networks">
+      <div class="content__networks">
+        <i class="fa-solid fa-check icon-networks"></i>
+        <p>
+          We are a company that can offer you many diferents way to update your
+          home.
+        </p>
+      </div>
+      <div class="content__networks-icon">
+        <a
+          href="https://www.facebook.com/people/GG-Pro-Home-Improvement/100077461185707/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-facebook-f icon-networks"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/ggprohomeimprovement/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-instagram icon-networks"></i>
+        </a>
+      </div>
+    </div>
+    <!-- header -->
+    <header class="container__header">
+      <figure>
+        <a href="#">
+          <img src="../img/logo.png" alt="Logo" class="logo__img" />
+        </a>
+      </figure>
+      <!-- <div class="container__info-header"> -->
+      <div class="content__info-header">
+        <i class="fa-regular fa-circle-check icon-header"></i>
+        <div>
+          <p class="text__header">Certified Company</p>
+          <span class="text__header-license">LICENSE: PA171215</span>
+        </div>
+      </div>
+      <div class="content__info-header">
+        <i class="fa-regular fa-circle-check icon-header"></i>
+        <div>
+          <p class="text__header">License & Insurance</p>
+          <span class="text__header-license">13VH11925700</span>
+        </div>
+      </div>
+      <div class="content__info-header">
+        <i class="fa-solid fa-phone icon-contact-header icon-header"></i>
+        <div>
+          <p class="text__phone-header">609-851-5324</p>
+          <p class="text__phone-header">609-880-4477</p>
+        </div>
+      </div>
+      <!-- </div> -->
+    </header>
+    <!-- Navbar -->
+    <span class="nav-bar btnMenu"><i class="fas fa-bars"></i></span>
+    <nav class="container__nav menu__desple" >
+      <ul class="menu">
+        <li class="menu__links">
+          <a href="#" class="links">Home</a>
+        </li>
+        <li class="menu__links">
+          <a href="../About/About.html" class="links">About us</a>
+        </li>
+        <li class="menu__links">
+          <a href="../Services/Services.html" class="links">Our Services</a>
+        </li>
+        <li class="menu__links">
+          <a href="../Portfolio/Portfolio.html" class="links">Portfolio</a>
+        </li>
+        <li class="menu__links">
+          <a href="../Contact/Contact.html" class="links">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Hero -->
+    <div class="hero__container">
+      <div class="container__slider">
+        <div class="slider fade">
+          <img src="../img/Group 1.png" alt="imagen slider 1" />
+        </div>
+        <div class="slider fade">
+          <img src="../img/Group 2.png" alt="imagen slider 2" />
+        </div>
+        <div class="slider fade">
+          <img src="../img/Group 3.png" alt="imagen slider 3" />
+        </div>
+        <div class="content__arrow">
+          <button class="arrow__prev" onclick="avanzaSlide(-1)">
+            &#10094;
+          </button>
+          <button class="arrow__next" onclick="avanzaSlide(1)">&#10095;</button>
+        </div>
+        <div class="content__dots">
+          <span class="dots active" onclick="posicionSlide(1)"></span>
+          <span class="dots" onclick="posicionSlide(2)"></span>
+          <span class="dots" onclick="posicionSlide(3)"></span>
+        </div>
+      </div>
+      <div class="content__hero">
+        <h1 class="title__hero">G&G Pro Home Improvement LLC</h1>
+        <p class="description__hero">
+          Working is a must in our life, so we set up working home to help you
+          fill those gaps between work.
+        </p>
+        <a href="../Contact/Contact.html" class="btn__hero">Get a Quote</a>
+      </div>
+    </div>
+
+    <!-- all sections -->
+    <main>
+      <!-- about section -->
+      <section class="container__about">
+        <h2 class="title__sections">About us</h2>
+        <div class="content__about">
+          <div>
+            <img src="../img/about.png" alt="Logo" class="img__about" />
+          </div>
+          <div class="content__about-home">
+            <p class="description__about">
+              We are G&G PRO HOME IMPROVEMENT LLC, a New Jersey-based company
+              specializing in providing home remodeling services.
+            </p>
+            <br />
+            <p class="description__about">
+              We develop comprehensive works both indoors and outdoors, always
+              focusing on quality. Our commitment is not only to beautify and
+              optimize private residences, but also to deliver solutions that
+              guarantee better living conditions for our costumers.
+            </p>
+            <br />
+            <p class="description__about">
+              Our commitment is not only to beautify and optimize private
+              residences, but also to deliver solutions that guarantee better
+              living conditions for our costumers.
+            </p>
+          </div>
+        </div>
+        <a href="#" class="scrollup" id="scroll-up">
+          <i class="fa-solid fa-caret-up scrollup__icon"></i>
+        </a>
+      </section>
+      <!-- section opportunity -->
+      <section class="container__opportunity">
+        <h2 class="title__section-opportunity">
+          Give us the opportunity to demonstrate the great benefits of working
+        </h2>
+        <a href="../Contact/Contact.html" class="btn__opportunity"
+          >Get a Quote</a
+        >
+      </section>
+      <!-- services section -->
+      <section class="container__services-home">
+        <h2 class="title__sections">our services</h2>
+        <div class="content__card-home">
+          <div class="card__container">
+            <img
+              src="../img/services1.jpg"
+              alt="servicio 1"
+              class="img__card-home"
+            />
+            <div class="card__body-home">
+              <h3 class="card__title-home">General Construction</h3>
+              <p class="card__text-home">
+                G&G Pro Home Improvement LLC provides pre-construction services
+                and construction management for the public and private sectors.
+              </p>
+            </div>
+          </div>
+          <div class="card__container">
+            <img
+              src="../img/services2.jpg"
+              alt="servicio 2"
+              class="img__card-home"
+            />
+            <div class="card__body-home">
+              <h3 class="card__title-home">Kitchen Remodeling</h3>
+              <p class="card__text-home">
+                G&G Pro Home Improvement LLC is a custom kitchen and bath
+                supplier offering remodeling services to accommodate any style
+                or budget.
+              </p>
+            </div>
+          </div>
+          <div class="card__container">
+            <img
+              src="../img/services3.jpg"
+              alt="servicio 3"
+              class="img__card-home"
+            />
+            <div class="card__body-home">
+              <h3 class="card__title-home">Bathroom Remodeling</h3>
+              <p class="card__text-home">
+                It’s incredible what a new bath, shower, flooring, or sink can
+                do to turn a room that was once a drab afterthought to one that
+                deserves to be shown off.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content__info-home">
+        <div class="content__experience-home">
+          <i class="fa-regular fa-circle-check icon__info"></i>
+          <div>
+            <p>20 years of Expericence</p>
+            <span>License: PA171215</span>
+          </div>
+        </div>
+        <div class="content__experience-home">
+          <i class="fa-regular fa-circle-check icon__info"></i>
+          <div>
+            <p>
+              Residential and Commercial <br />
+              Services
+            </p>
+          </div>
+        </div>
+        <div class="content__experience-home">
+          <i class="fa-regular fa-circle-check icon__info"></i>
+          <div>
+            <p>Free Estimates</p>
+            <span>8:00am - 5:00pm</span>
+          </div>
+        </div>
+      </section>
+      <!-- contact section -->
+      <section class="container__contact">
+        <div class="content__contact">
+          <div class="content__info">
+            <h3>About Our Company</h3>
+            <p class="content__contact-home">
+              We are the best remodeling company that give the highest quality
+              products to our customers. With more than 20 years of experience.
+            </p>
+            <div class="content__phone-contact">
+              <i class="fa-solid fa-phone icon-contact"></i>
+              <p class="text__contact">+1 609-851-5324</p>
+            </div>
+            <div class="content__phone-contact">
+              <i class="fa-solid fa-phone icon-contact"></i>
+              <p class="text__contact">+1 609-880-4477</p>
+            </div>
+          </div>
+          <div>
+            <h3 class="title__location">Location</h3>
+            <div class="container__map map"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer section -->
+    <footer class="container__footer">
+      <div>
+        <p class="text__footer">
+          &#169; 2022
+          <span class="text__footer-GG"> G&G Pro Home Improvement LLC</span>
+          All Rights Reserved
+        </p>
+      </div>
+      <nav>
+        <ul class="menu__footer">
+          <li class="menu__links-footer">
+            <a href="../About/About.html" class="links__footer">about us</a>
+          </li>
+          <li class="menu__links-footer">
+            <a href="../Portfolio/Portfolio.html" class="links__footer"
+              >Portfolio</a
+            >
+          </li>
+          <li class="menu__links-footer">
+            <a href="../Contact/Contact.html" class="links__footer">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="./index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+  </body>
+</html>
